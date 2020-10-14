@@ -1,0 +1,22 @@
+.main-spinner-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: #eee;
+  .donut {
+    width: 4rem;
+    height: 4rem;
+    border-radius: 50%;
+    border: 0.3rem solid rgba(theme-color(success), 0.3);
+    border-top-color: theme-color(success);
+    animation: 1.5s spin infinite linear;
+  }
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
