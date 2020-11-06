@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/demo/stellar-react-free/template/demo_1/preview/precache-manifest.0eb8a512a50433d934ff2322c3868d03.js"
+  "/demo/stellar-react-free/template/demo_1/preview/precache-manifest.216fa577345c75a07cd3a31484ddfd5b.js"
 );
 
 self.addEventListener('message', (event) => {
